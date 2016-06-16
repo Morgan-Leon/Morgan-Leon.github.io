@@ -46,7 +46,7 @@ ATOM默认安装在
 
 + **Linter** ：Linter懂得都懂哈，开发必备，代码提示的插件。安装代码`apm install linter`主页如下： https://atom.io/packages/linter
 + **pigment** : 主页：https://atom.io/packages/pigments 显示颜色的
-+ **Git-Plus ** https://atom.io/packages/git-plus
++ **Git-Plus** https://atom.io/packages/git-plus
 + **color-picker** https://atom.io/packages/color-picker
 + **autocomplete** 代码自动补全的这个一定要装 https://atom.io/packages/autocomplete-plus
 + **markdown-preview-plus** markdown https://atom.io/packages/markdown-preview-plus
