@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Windows上构建前端开发利器ATOM-常用插件介绍"
+date:   2016-06-15 17:35:25 +0800
+categories: jekyll update
+---
+
+## 安装
+
+进入官网[https://atom.io/](https://atom.io/)点击Download Windows Installer 。下载后点击安装即可。
+
+![2016-06-15-构建前段开发利器ATOM插件介绍](/img/2016-06-15-构建前端开发利器ATOM插件介绍.png)
+
+## 设置环境变量
+ATOM默认安装在
+`C:/Users/<username>/AppData/Local/atom`
+
+![2016-06-15-构建前段开发利器ATOM插件介绍1](/img/2016-06-15-构建前端开发利器ATOM插件介绍1.png)
+
+点击Update.exe 可以启动ATOM。这点有些坑爹，文件名并不是ATOM。进入\bin目录可以看到apm。为了方便使用，需要建议将此目录设为环境变量。
+
+此外User目录中还有一个与ATOM相关的文件夹：
+`C:/Users/<username>/.atom`
+
+此文件夹中存放ATOM运行所需的依赖文件。我们为ATOM安装的插件即保存在此目录下的packages文件夹下
+
+## 安装插件
+强大的可定制性是ATOM的一大特点，也是我喜欢它的原因。
+你可以选择喜欢的插件进行安装，甚至可以在GIT上开发自己的插件。
+安装插件的方法也很简单。实际上就是把插件文件拷贝到\.atom\packages目录中。
+可以在
+>[https://atom.io/packages](https://atom.io/packages)
+
+上查看ATOM的所有插件。
+将ATOM设置成环境变量后可以在cmd中使用命令
+ `apm install <插件名> `
+安装插件
+
+还可以在Atom的Setting中安装插件，`ctrl + ,` 为Setting页面的快捷键。
+
+
+## 常用插件介绍
+实际上一个最实用的找插件的方法即在官网上看到那个下载量多下载那个...官网上packages的浏览页面可以按照下载量排序。找下的多的下准没错，haha~
+
+然后我列举几个本人前端开发必下的插件：
+
++ **Linter** ：Linter懂得都懂哈，开发必备，代码提示的插件。安装代码`apm install linter`主页如下： https://atom.io/packages/linter
++ **pigment** : 主页：https://atom.io/packages/pigments 显示颜色的
++ **Git-Plus ** https://atom.io/packages/git-plus
++ **color-picker** https://atom.io/packages/color-picker
++ **autocomplete** 代码自动补全的这个一定要装 https://atom.io/packages/autocomplete-plus
++ **markdown-preview-plus** markdown https://atom.io/packages/markdown-preview-plus
++ **tree-view-git-status**
++ **minimap** https://atom.io/packages/minimap
++ **file-icons** 好看的Icon 强烈推荐 https://atom.io/packages/file-icons
++ **merge-conflicts**
+https://atom.io/packages/merge-conflicts
++ **highlight-selected** https://atom.io/packages/highlight-selected
++ **autoclose-html**
+https://atom.io/packages/autoclose-html
++ **highlight-line**
+https://atom.io/packages/
++ **linter-eslint**
+https://atom.io/packages/linter-eslint
