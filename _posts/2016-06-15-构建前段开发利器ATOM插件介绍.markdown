@@ -62,3 +62,5 @@ https://atom.io/packages/autoclose-html
 https://atom.io/packages/
 + **linter-eslint**
 https://atom.io/packages/linter-eslint
++ **markdown-writer**
+[https://atom.io/packages/markdown-writer](https://atom.io/packages/markdown-writer)
