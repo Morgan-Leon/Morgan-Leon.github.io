@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "吃遍学院南路（二）德丰轩：粥&馅饼"
 date: "2016-06-22 20:17"
 ---
