@@ -9,13 +9,13 @@ categories: jekyll update
 
 进入官网[https://atom.io/](https://atom.io/)点击Download Windows Installer 。下载后点击安装即可。
 
-![2016-06-15-构建前段开发利器ATOM插件介绍](/img/2016-06-15-构建前端开发利器ATOM插件介绍.png)
+![2016-06-15-构建前段开发利器ATOM插件介绍](/img/pictures/2016-06-15-构建前端开发利器ATOM插件介绍.png)
 
 ## 设置环境变量
 ATOM默认安装在
 `C:/Users/<username>/AppData/Local/atom`
 
-![2016-06-15-构建前段开发利器ATOM插件介绍1](/img/2016-06-15-构建前端开发利器ATOM插件介绍1.png)
+![2016-06-15-构建前段开发利器ATOM插件介绍1](/img/pictures/2016-06-15-构建前端开发利器ATOM插件介绍1.png)
 
 点击Update.exe 可以启动ATOM。这点有些坑爹，文件名并不是ATOM。进入\bin目录可以看到apm。为了方便使用，需要建议将此目录设为环境变量。
 
